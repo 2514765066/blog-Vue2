@@ -12,8 +12,6 @@ app.use(bodyParser.json());
 //静态资源
 app.use(express.static(path.join(__dirname, "public")));
 
-let Administrator = [];
-
 //上传图片
 app.post("/images/:name", (req, res) => {
 	const form = formidable({
@@ -38,7 +36,7 @@ app.post("/images/:name", (req, res) => {
 
 //登录
 app.post("/login", (req, res) => {
-	if (req.body.password === "yxingyuszmy2") {
+	if (req.body.password === "密码") {
 		Administrator.push(req.ip);
 		res.send(true);
 	} else {
