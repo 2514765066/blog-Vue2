@@ -1,4 +1,4 @@
-# Blog
+![image](https://github.com/2514765066/Blog/assets/122349197/c26381f9-3e1b-4b32-b4bc-2869597e6856)# Blog
 个人博客项目使用vue2和nodejs
 
 用的是pnpm的包管理器
@@ -6,3 +6,4 @@
 没有使用数据库而是直接用json文件存储数据
 
 设计展示部分
+![Uploading image.png…]()
